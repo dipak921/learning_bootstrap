@@ -5,9 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Index HTML</title>
     <link rel="stylesheet" href="/CSS/bootstrap.min.css">
+    <style>
+      .copyright{
+        text-align: center;
+        color: black;
+      }
+
+      li{
+        list-style: none;
+        
+      }
+      /* nav{
+        position:sticky;
+        top: 5px;
+      } */
+
+      .appointment{
+        background-color: #9dc9ed;
+        border-radius: 15px;
+      }
+
+      .btn{
+        background-color: blue;
+        color: white;
+      }
+      .marquee{
+        background-color: #9dc9ed;
+        color: black;
+      }
+
+    </style>
 </head>
 <body>
-    <header>
+    <header class=" sticky-top">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid bg-primary">
     <a class="navbar-brand" href="#">
@@ -49,8 +79,9 @@
     </header>
 
     <main>
+      <marquee behavior="alternat" direction="" scrollamount="15" height="auto" class="marquee" ><h2> Super Speciality Doctors : Dr .Nitin Pathak [ Vascular Surgeon ] , Dr. B. B. Kumar [ Arthritis Specialist ] , Dr. Abhijit Baheti [ Hematologist ] , Dr. Sameer Melinkari  [ Hematologist ] , , Dr. Liza Balsara [ Pediatric Hematologist ]  , Dr. Piyush Lodha [ Endocrinologist ] , Dr. Amit Surana [ Orthopedic Spine Specialist ]  </h2></marquee>
         <!-- slider section start -->
-        <section>
+        <section class="scorllbar">
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -62,52 +93,47 @@
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="/images/slide/slide 1.jpg" width="400" height="500" class="d-block w-100" alt="...">
+      <img src="/images/hosptial.jpg" width="400" height="400" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block border-primary">
         <h5>First slide label</h5>
         <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/images/slide/slide 2.jpg" width="400" height="500" class="d-block w-100" alt="...">
+      <img src="/images/hosptial01.jpg" width="400" height="400" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Second slide label</h5>
         <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/images/slide/slide 3.jpg" width="400" height="500" class="d-block w-100" alt="...">
+      <img src="/images/hosptial02.jpg" width="400" height="400" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Third slide label</h5>
         <p>Some representative placeholder content for the third slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/images/slide/slide 4.jpg" width="400" height="500" class="d-block w-100" alt="...">
+      <img src="/images/hosptial03.jpg" width="400" height="400" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Four slide label</h5>
         <p>Some representative placeholder content for the Four slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/images/slide/slide 5.jpg" width="400" height="500" class="d-block w-100" alt="...">
+      <img src="/images/hosptial05.jpg" width="400" height="400" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Third Five label</h5>
         <p>Some representative placeholder content for the Five slide.</p>
       </div>
     </div>
     <div class="carousel-item">
-      <img src="/images/slide/slide 6.jpg" width="400" height="500" class="d-block w-100" alt="...">
+      <img src="/images/hosptial04.jpg" width="400" height="400" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Six slide label</h5>
         <p>Some representative placeholder content for the Six slide.</p>
       </div>
     </div>
-
-
-
-
-
   </div>
   <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -120,7 +146,187 @@
 </div>
         </section>
         <!-- slider section End -->
+      <section >
+        <div class="container mt-4 mb-4">
+          <div class="row">
+            <div class="col-md-6">
+              <h1>Anandrishiji Hospital, Ahmednagar</h1>
+              <p class="copyright">11 Doctors | 18 Specialities | Multi-Speciality Hospital</p>
+              <p class="copyright">Timing 24 X 7 Open</p>
+              <a href="#" class="btn btn-primary disabled " tabindex="-1" role="button" data-bs-toggle="button">34 patients enquired about the doctor in last 1 hour.</a>
+              <h4>Address</h4>
+              <p><b> Maniknagar, Ahmednagar, Maharashtra</b></p>
+              <div class="d-flex flex-column flex-lg-row gap-3 mt-2 "><button class="btn-style-one bg-primary  w-sm-50 undefined  overflow-hidden" type="button" data-bs-toggle="modal" data-bs-target="#organicLeadFormModal2" id=""><span class="lines-group"></span><span class="button-content-animated"><img alt="" fetchpriority="high" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.hexahealth.com/static/images/calendar.svg" style="color: transparent;">Book Appointment</span></button><br><br><a id="" class="btn-style-one font-weight-600 green-color  w-sm-50 undefined " href="https://wa.me/918860688606?text=Hi, I want to connect with an expert from Anandrishiji Hospital, Ahmednagar Hospital-ID=3862 Tier-ID=3" target="_blank"><img alt="" fetchpriority="high" width="20" height="20" decoding="async" data-nimg="1" src="https://cdn.hexahealth.com/static/images/whatsapp_icon.svg" style="color: transparent;">WhatsApp Expert</a></div>
+            </div>
+            <div class="col-md-6 ">
+              <img src="/images/hosptial.jpg" class="rounded-5" alt="Hospital">
+            </div>
+          </div>
+        </div>
+      </section><div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h2>About Us</h2>
+            <p>Jain Social Federation's Anandrishiji Hospital and Medical Research Center stands as a beacon of advanced medical care and community-focused health services in Ahmednagar, Maharashtra. Since its establishment, the hospital has dedicated itself to enhancing patient care through innovative practices and a comprehensive healthcare delivery system.Located on Anandrishiji Marg, the hospital has made significant strides in providing high-quality medical services. It manages a substantial patient volume, with 242,139 in-patients and 1,481,597 out-patients served to date. Additionally, the hospital has conducted 47,001 surgeries and has achieved an impressive 96% in-patient satisfaction rate, reflecting its commitment to excellent care.The facility is equipped with a range of modern services and specializations, including cardiology, nephrology, and pediatrics, supported by a team of highly qualified super-specialty doctors. Anandrishiji Hospital is known for its state-of-the-art dialysis center, ICU, and comprehensive diagnostic services. For those seeking high-quality medical care, Anandrishiji Hospital offers a patient portal for easy access to health reports and maintains a 24-hour emergency service. For more information or to book an appointment, individuals are encouraged to contact the hospital directly at their provided numbers. Connect to the top doctors of Anandrishiji Hospital for priority appointments and a hassle-free experience via the medical experts of HexaHealth Where uncompromised healthcare meets exceptional wellness</p>
+          </div>
+          <div class="col-md-4 appointment"> <!-- bg-success rounded-5 -->
+            <p><b>Book Appointment with Anandrishiji Hospital, Ahmednagar</b></p>
+            <label for="">Name : </label>
+            <input type="text" placeholder="Enter Your Name">
+            <br><br>
+            <label for="">Phone :</label>
+            <input type="number" placeholder="Enter Your Mobile Number">
+            <br><br>
+            <select class="form-select" aria-label="Default select example">
+                <option selected>Select Speciality</option>
+                <option value="1">Ohter</option>
+            </select>
+              <p><b>Have you consulted Anandrishiji Hospital, Ahmednagar before?</b></p>
+                  <input type="radio" id="html" name="fav_language" value="HTML">
+                  <label for="html">Yes</label>
+                  <input type="radio" id="css" name="fav_language" value="CSS">
+                  <label for="css">No</label><br>
+              <p><b>Are you open to another similar Hospital?</b></p>
+                  <input type="radio" id="html" name="fav_language" value="HTML">
+                  <label for="html">Yes</label>
+                  <input type="radio" id="css" name="fav_language" value="CSS">
+                  <label for="css">No</label><br>
+                  <p class="copyright"><button class="btn">Book Appointment </button></p>
+          </div>
+        </div>
+      </div>
+      <section>
+
+      </section>
+
+
+  <!-- porduct section start -->
+  <section class="mt-4 mb-4">
+    <div class="container">
+      <div class="row">
+        <h2>Service</h2>
+        <div class="col-md-3">
+          <div class="card border border-primary shadow-lg p-3 mb-5 bg-body rounded"">
+          <img src="Card images/x-rays.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">X-Ray</h5>
+            <p class="card-text">An X-ray is a type of electromagnetic radiation used to create images of the inside of the body, primarily for diagnosing bone fractures, tumors, and other medical conditions. X-rays pass through the body and are absorbed differently by X ray fractures</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card border border-primary shadow-lg p-3 mb-5 bg-body rounded"">
+          <img src="Card images/ICU-internal-image.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ICU</h5>
+            <p class="card-text">An Intensive Care Unit (ICU), also known as a critical care unit, is a specialized section of a hospital dedicated to providing continuous, advanced care for patients with life-threatening illnesses or injuries. ICUs are equipped with specialized medical </p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card border border-primary shadow-lg p-3 mb-5 bg-body rounded">
+            <img src="Card images/city_scene_1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">City Scan</h5>
+              <p class="card-text">The city scene near Jijamata Park in Chinchwad includes several hospitals and diagnostic centers, with Aditya Birla Memorial Hospital and Shraddha Diagnostic Services being prominent options. Additionally, Krsnaa Diagnostics Limited is another nearby facility.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card border border-primary shadow-lg p-3 mb-5 bg-body rounded">
+          <img src="Card images/istockphoto-501707914-612x612.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Operation Theatre</h5>
+            <p class="card-text">An operation theatre, also known as an operating room (OR), is a specialized, sterile area within a hospital where surgical procedures are performed. It is equipped with advanced medical technology and designed to maintain a safe and infection-free environment for</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+          </div>
+        </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <a href="services.html" class="btn btn-primary" tabindex="-1" role="button" aria-disabled="true">More service</a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- porduct section end -->
+
     </main>
+    <footer class="mt-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h2>Address</h2>
+            <p>Vianam Healthtech Private Limited, Third fkoor building B, the presidency, The presidency, 46/4, sectore 14, Mehrauli gurgaon Road, Grgaonm Haryana 122001</p>
+          <a href="https://www.facebook.com/"><img src="/images/facebook.png" width="40" height="34" alt=""></a> Facebook <br><br>
+          <a href="https://www.instagram.com/"><img src="/images/instagram.png" width="40" height="34" alt=""></a> Instagram <br><br>
+          <a href="https://www.instagram.com/"><img src="/images/whatsapp.png" width="40" height="34" alt=""></a> Facebook
+
+          </div>
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-3">
+                <h2>Medical Tests</h2>
+                <ul>
+                  <li>MPV Blood Test </li>
+                  <li>MCH Blood Test</li>
+                  <li>ESR Blood Test</li>
+                  <li>Double Marker Test</li>
+                  <li>HCT Gold Test</li>
+                  <li>CA 125 Blood Test</li>
+                  <li>SGPT Test</li>
+                  <li>ANC Profile</li>
+                  <li>Serum Iron Test</li>
+                  <li>RGU Test</li>
+                  <li>Double Marker Test</li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <h2>HexaHealth</h2>
+                <ul>
+                  <li>About Us</li>
+                  <li>Contact Us</li>
+                  <li>Partner With Us</li>
+                  <li>FAQs</li>
+                  <li>Press & Media</li>
+                  <li>Medical Reviewers</li>
+                  <li>Authors</li>
+                  <li>Site Map</li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <h2>Policies</h2>
+                <ul>
+                  <li>Privacy Policy</li>
+                  <li>Refund Policy</li>
+                  <li>Term & Conditions</li>
+                  <li>Editorial Policy</li>
+                </ul>
+              </div>
+              <div class="col-md-3">
+                <h2>For Patients</h2>
+                <ul>
+                  <li>All Doctors</li>
+                  <li>All Hospitasls</li>
+                  <li>All Conditions</li>
+                  <li>All Treatments</li>
+                  <li>All Department</li>
+                  <li>Second Opinion </li>
+                  <li>Mediacl Loan</li>
+                  <li>BMI Calculator</li>
+                  <li>HexaHealth Reviews</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="copyright"><b>Vianam Healthtech Private Linited &copy; 2025. All Rights Reserved</b></p>
+    </footer>
 
     <script src="/JS/bootstrap.bundle.min.js"></script>
 </body>
